@@ -105,7 +105,7 @@ export default {
       });
     },
     setBackgroundColor() {
-      let newColor = this.checked ? this.activeColor : this.inactiveColor;
+      const newColor = this.checked ? this.activeColor : this.inactiveColor;
       this.$refs.core.style.borderColor = newColor;
       this.$refs.core.style.backgroundColor = newColor;
     },
@@ -123,4 +123,3 @@ export default {
   },
 };
 </script>
-
