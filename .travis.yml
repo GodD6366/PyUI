@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - '10'
+branchs:
+  only:
+    - dev_dcc_ci_1105
+cache:
+  directories:
+    - 'node_modules'
+install:
+  - npm install
+script:
+  - npm test
