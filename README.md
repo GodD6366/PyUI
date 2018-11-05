@@ -1,5 +1,7 @@
 # py-ui
 
+[![Build Status](https://travis-ci.com/GodD6366/PyUI.svg?branch=master)](https://travis-ci.com/GodD6366/PyUI)
+
 ## 开发前必读
 
 强烈推荐使用 VSCODE 编译器 并且安装 `Prettier - Code formatter`,`ESLint` ,`EditorConfig for VS Code`这三个插件
